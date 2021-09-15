@@ -66,7 +66,7 @@ export const CalendarModal = () => {
 
 
     const closeModal = () => {
-        // TODO: cerrar el modal
+
         dispatch( uiCloseModal() );
         dispatch( eventClearActiveEvent() );
         setFormValues( initEvent );
